@@ -1,0 +1,14 @@
+Given an integer, <b>N</b>, traverse its digits (<i>d<sub>1</sub>,d<sub>2</sub>,...,d<sub>n</sub></i>) and determine how many digits evenly divide  (i.e.: count the number of times <b>N</b> divided by each digit <i>d<sub>i</sub></i> has a remainder of 0). Print the number of evenly divisible digits.<br>Note: Each digit is considered to be unique, so each occurrence of the same evenly divisible digit should be counted (i.e.: for <b>N</b>=111, the answer is 3).<br/>
+</br>
+Input Type: The first line is an integer, <b>T</b>, indicating the number of test-cases. <br/>The subsequent lines each contain an integer, <b>N</b>.</br>
+	<br/>
+	Constraint: 1 ≤ <b>T</b> ≤ 15 <br> 1 ≤ <b>N</b> ≤ 10<sup>9</sup><br/>
+	<br/>
+	Output Type: For every test case, count and print (on a new line) the number of digits in <b>N</b> that are able to evenly divide <b>N</b>.<br/>
+	<br/>
+	Examples: 
+		<br>2<br>12<br>121<br> <br>2<br>2
+	<br/>
+	<br/>
+	
+	Explanation: The number 12 is broken into two digits, 1 and 2. When 12 is divided by either of those digits, the calculation's remainder is 0; thus, the number of evenly-divisible digits in 12 is 2.<br> The number 121 is broken into three digits, 1, 2 and 1. 121 is evenly divisible by its digits 1 and 1, thus, our count of evenly divisible digits is 2.
