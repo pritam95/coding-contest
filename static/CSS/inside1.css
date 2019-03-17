@@ -1,0 +1,53 @@
+.topbardiv
+{
+    background-color: #333;
+    position:absolute;
+    color: #f2f2f2;
+    font-size: 20px;
+    height:5%;
+    width:100%;
+   
+}
+.verticaldiv 
+{
+    top:5%;
+    width:5%;
+    background-color:#333;
+    position:absolute;
+    left:19%;
+    height:100%;
+    padding:2%;
+}
+.qstnsdiv
+{
+    background-image: url("../images/qstn.jpg");
+    background-size: cover;
+    background-position: center;
+    top:5%;
+    position:absolute;
+    width:18%;
+    height:100%;
+    padding: 2%;
+}
+.qstnbarinput
+{ 
+    border:solid 1px white;
+    padding:5px;
+    width:70%;
+}
+.fullqstndiv
+{  
+    /*background-image: url("../images/box1.jpg");
+    background-size: cover;
+    background-position: center;*/ 
+    left:24%;
+    top:5%;
+    position:absolute;
+    width:72%;
+    height:100%;
+    padding: 2%;
+    background-color: navajowhite;
+}
+
+
+
